@@ -12,3 +12,7 @@ app.get("/api", (req, res)=>{
         message: "Welcome to jumia api"
     })
 })
+
+app.get("/api/v1", (req, res)=>{
+    res.send("Welcome to jumia api version 1")
+})
